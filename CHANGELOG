@@ -1,0 +1,13 @@
+0.0.0.1		Initial release on Linux
+0.0.1.1		RegEx creation modified
+		Blocklist filter testing added
+		Blocklist filter validation added
+		Blocklist search duplicates added
+0.0.1.2		Blocklist failed filters fixed
+		Blocklist renew filters added
+		Blocklist whois display fixed
+0.0.1.3		Archiv date format fixed
+		Mikrotik log analysis added
+		VPN connect/disconnect added
+0.0.1.4		Keywords filter fixed
+
