@@ -31,8 +31,6 @@ Logfile analysis for Mikrotik routers
         <li><a href="#blocklist">Blocklist</a></li>
       </ul>
     </li>
-    <li><a href="#binarys">Binarys</a></li>
-    <li><a href="#configuration">Configuration</a></li>
   </ol>
 </details>
 
