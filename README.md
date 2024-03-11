@@ -7,6 +7,7 @@
 [![Downloads](https://img.shields.io/github/downloads/unattended-ch/logv/total?style=for-the-badge&color=blue)](https://github.com/unattended-ch/logv/releases/latest)
 
 Webserver logfile analysis for IIS, Nginx and Apache
+Logfile analysis for Mikrotik routers
 
 </div>
 
@@ -53,13 +54,9 @@ Webserver logfile analysis for IIS, Nginx and Apache
 ## SYNOPSIS
 
        - Download logfiles from your Webserver
-       
        - Analyze logfiles IP, Range, Country...
-       
        - Create blocklist entry for adress ranges
-       
        - Create .htaccess files for webserver
-       
        - Send .htaccess file to your server
 
 ## FIRST STEPS
@@ -68,8 +65,7 @@ Webserver logfile analysis for IIS, Nginx and Apache
        - Create a new user
 `
 
-       - Download GeoLite2 Country and ASN as CSV 
-   [Maxmind Webpage](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data)
+       - Download GeoLite2 Country and ASN as CSV [Maxmind Webpage](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data)
 
        - Start logv
        - A database connection dialog is displayed
