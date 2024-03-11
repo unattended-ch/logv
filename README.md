@@ -1,11 +1,12 @@
-# logv
-## Webserver logfile analysis for IIS, Nginx and Apache
 
 <div align="center">
 
+# logv
 
 [![Release version](https://img.shields.io/github/v/release/unattended-ch/logv?color=blue&label=&style=for-the-badge)](https://github.com/unattended-ch/logv/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/unattended-ch/logv/total?style=for-the-badge&color=blue)](https://github.com/unattended-ch/logv/releases/latest)
+
+Webserver logfile analysis for IIS, Nginx and Apache
 
 </div>
 
