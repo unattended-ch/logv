@@ -63,11 +63,6 @@ Logfile analysis for Mikrotik routers
 
        - MySql server must be installed
        - Create a new mysql user weblog
-`
-
-       - Download GeoLite2 Country and ASN as CSV 
-   [Maxmind Webpage](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data)
-
        - Start logv
        - A database connection dialog is displayed
        - Enter your data a press "Connect"
@@ -103,6 +98,8 @@ Ubuntu|~/.logv/logv.conf|Configuration file
 	- Press "Upload/Download"
 	- Press "Add"
 
+![Main Page][add]
+
 Format|Description
 ---|---
 .htaccess|.htaccess file for Apache, Nginx or IIS
@@ -116,8 +113,6 @@ Webalizer Config file|Webalizer config file
 
 	- For FTP download use "Server", "Username" and "Password"
 	- Without these fields a normal file copy will be made
-
-![Main Page][add]
 
 Fields|Description
 ---|---
@@ -184,8 +179,6 @@ Exit|Close window
 OS|File
 ----|----
 Ubuntu|[logv.conf](logv.conf)
-MacOS|[logv.conf](logv.conf)
-Windows|Registry
 
 
 [main]: docs/main-window.png
