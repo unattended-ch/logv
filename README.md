@@ -158,27 +158,19 @@ Exit|Exit from window
 
 Function|Description
 ---|---
-Save|
-Delete|
-Refresh|
-Reload|
-Reset|
-Update Filter|
-Validate Filter|
-Test Filter|
-Duplicates|Check for duplicate ranges
-Whois|Run WHOIS for IP Adress
+Save|Save selected record
+Delete|Delete selected record
+Refresh|Refresh list
+Reload|Reload list
+Reset|Reset default list display
+Update Filter|Update filter
+Validate Filter|Validate filter
+Test Filter|Test all filter in the list
+Test Owner|Test all owners in the list
+Duplicates|Check for duplicate ranges in the list
+Whois|Run WHOIS for selected IP Adress
 Exit|Close window
 
-## BINARYS
-
-  [Download binary][releases]
-
-## CONFIGURATION
-
-OS|File
-----|----
-Ubuntu|[logv.conf](logv.conf)
 
 
 [main]: docs/main-window.png
