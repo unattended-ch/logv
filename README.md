@@ -7,6 +7,7 @@
 [![Downloads](https://img.shields.io/github/downloads/unattended-ch/logv/total?style=for-the-badge&color=blue)](https://github.com/unattended-ch/logv/releases/latest)
 
 Webserver logfile analysis for IIS, Nginx and Apache
+
 Logfile analysis for Mikrotik routers
 
 </div>
@@ -43,11 +44,10 @@ Logfile analysis for Mikrotik routers
 
 ## DESCRIPTION
 
-       logv is a webserver logfile analysis software for IIS, Nginx and Apache
-
+       Webserver logfile analysis software for IIS, Nginx and Apache
+       Logfile analysis for Mikrotik routers
        Written with Lazarus and using mysql 8.0 database
-
-       Compiled for Debian, Ubuntu, Raspberry, MacOS and Windows
+       Compiled for Debian, Ubuntu
 
 [Discussion][discuss]
 
@@ -62,10 +62,11 @@ Logfile analysis for Mikrotik routers
 ## FIRST STEPS
 
        - MySql server must be installed
-       - Create a new user
+       - Create a new mysql user weblog
 `
 
-       - Download GeoLite2 Country and ASN as CSV [Maxmind Webpage](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data)
+       - Download GeoLite2 Country and ASN as CSV 
+   [Maxmind Webpage](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data)
 
        - Start logv
        - A database connection dialog is displayed
@@ -73,14 +74,8 @@ Logfile analysis for Mikrotik routers
        - If the server is connected, you get a messsage "missing database"
        - Press "Create database"
        - On success you will be forwarded to main page
-`
-
-       - Extract GeoLite CSV files to ~/.logv/files/*.csv
-       - In "File" menu, click on "Import Country..."
-`
-
        - Press "Upload/Download" button
-       - Press "Add" to create a new IIS or Apache logfile
+       - Press "Add" to create a new IIS, Nginx, Apache or Mikrotik logfile
        - Press "Add" to create a new .htaccess file
        - Download original .htaccess file from provider to ~/.logv/SERVERNAME.htaccess
        - Add two lines for Blocklist "#BEGIN Blacklist" and "#END Blocklist"
@@ -94,15 +89,6 @@ OS|Folder|Description
 Ubuntu|/usr/local/bin/|Executable
 Ubuntu|~/logv/|Logfiles, Pages and Archiv folder
 Ubuntu|~/.logv/|Work folder for internal files
- | | 
-MacOS|/Applications/|Executable
-MacOS|~/logv/|Logfiles, Pages and Archiv folder
-MacOS|~/.logv/|Work folder for internal files
- | | 
-Windows|%ProgramFiles%\logv\|Executable
-Windows|%HomePath%\logv\|Logfiles, Pages and Archiv folder
-Windows|%AppData%\logv\|Work folder for internal files
-
 
 ### FILES
 
@@ -110,14 +96,6 @@ OS|File|Description
 ----|----|----
 Ubuntu|/usr/local/bin/logv|Executable
 Ubuntu|~/.logv/logv.conf|Configuration file
- | | 
- | | 
-MacOS|/Applications/logv.app|Executable
-MacOS|~/.logv/logv.conf|Configuration file
- | | 
- | | 
-Windows|%ProgramFiles%\logv\logv.exe|Executable
-Windows|Registry|Configuration
 
 
 ### ADD FILES
