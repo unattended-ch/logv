@@ -8,6 +8,8 @@
 [![Release version](https://img.shields.io/github/v/release/unattended-ch/logv?color=blue&label=&style=for-the-badge)](https://github.com/unattended-ch/logv/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/unattended-ch/logv/total?style=for-the-badge&color=blue)](https://github.com/unattended-ch/logv/releases/latest)
 
+[![my way](https://img.shields.io/badge/-actio et reactio?style=for-the-badge)](https://www.google.ch/search?q="actio+et+reactio"%2B+translate)<br>
+
 Webserver logfile analysis for IIS, Nginx and Apache
 
 Logfile analysis for Mikrotik routers
