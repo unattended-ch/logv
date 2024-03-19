@@ -147,6 +147,7 @@ Format|Description
 .htaccess|.htaccess file for Apache, Nginx or IIS
 IIS logfile|Microsoft IIS logfile format
 Apache logfile|Apache or Nginx lofile format
+Mikrotik|Mikrotik logfile format
 PHP file|PHP file (example : wp-config.php)
 HTML file|HTML file
 Config file|Config file
@@ -156,13 +157,14 @@ Webalizer Config file|Webalizer config file
 	- For FTP download use "Server", "Username" and "Password"
 	- Without these fields a normal file copy will be made
 
-	- For Mikrotik you can specify a VPN-connection use "Filename"
-	- Mikrotik data will be send with rsh
+	- For Mikrotik you can specify a VPN-connection use "Filename" (myvpn)
+	- For Mikrotik specify "Username" with connection data (username@10.1.1.1)
+	- Mikrotik data will be send with rsh and "Username"
 
 Fields|Description
 ---|---
 Server|FTP FQDN or IP
-Username|FTP username
+Username|FTP username or Mikrotik rsh connection data
 Password|FTP password
 Filename|Remote filename, replace date in filename with "{DATE}"
 Local filename|Local filename, replace date in filename with "{DATE}"
