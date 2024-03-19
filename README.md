@@ -68,6 +68,9 @@ Logfile analysis for Mikrotik routers
        - Create a new mysql user weblog
        - Start logv
        - A database connection dialog is displayed
+
+![Connection][dbconnection]
+
        - Enter your data a press "Connect"
        - If the server is connected, you get a messsage "missing database"
        - Press "Create database"
