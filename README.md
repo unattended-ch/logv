@@ -84,7 +84,9 @@ Logfile analysis for Mikrotik routers
        - Press "Add" to create a new IIS, Nginx, Apache or Mikrotik logfile
        - Press "Add" to create a new .htaccess file
 
-       - Download original .htaccess file from provider to ~/.logv/SERVERNAME.htaccess
+       - Enter informations and Press "Save"
+
+       - Press "Download" to get the original .htaccess file from provider to ~/.logv/SERVERNAME.htaccess
        - Add two lines for Blocklist "#BEGIN Blacklist" and "#END Blocklist
 [.htaccess](/.htaccess)
 
@@ -179,7 +181,10 @@ Blacklist error|HTML error to send in Blocklist (example: 405)
 	- File will be loaded into import table on center window
 	- Country and Range loading automatically started
 	- Select a log line and Right-Click "Add to blocklist"
- 	
+![Blocklist][block]
+
+	- Verify data and Press "Save"
+	- To wxit from window Press "Exit"
 
    [goto TOC](#toc)
 
@@ -197,9 +202,9 @@ Reload|Reload list
 Reset|Reset default list display
 Update Filter|Update filter
 Validate Filter|Validate filter
-Test Filter|Test all filter in the list
-Test Owner|Test all owners in the list
-Duplicates|Check for duplicate ranges in the list
+Test Filter|Test all filter in the blocklist
+Test Owner|Test all owners in the blocklist
+Overlap|Check for overlapping ranges in the blocklist
 Whois|Run WHOIS for selected IP Adress
 Exit|Close window
 
