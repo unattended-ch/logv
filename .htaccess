@@ -2,24 +2,31 @@ AllowOverride None
 Options -ExecCGI -Indexes -All
 
 # BEGIN Blacklist
+# Blacklist etrys
 # END Blacklist
 
 # BEGIN Spiders
+# Search spiders
 # END Spiders
 
 # BEGIN Port
+# Change to HTTPS
 # END Port
 
 # BEGIN Hotlink
+# Prevent hotlinking
 # END Hotlink
 
 # BEGIN Method
+# Prevent some methods
 # END Method
 
 # BEGIN Filename
+# Check if file is available
 # END Filename
 
 # BEGIN Include
+# Prevent Include folder
 # END Include
 
 <Files wp-config.php>

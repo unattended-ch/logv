@@ -79,7 +79,7 @@ Logfile analysis for Mikrotik routers
        - Add two lines for Blocklist "#BEGIN Blacklist" and "#END Blocklist
 [.htaccess](/.htaccess)
 
-       - Add two lines for Spiders "#BEGIN Spiders" and "#END Spiders"
+       - Add at least two lines for Spiders "#BEGIN Spiders" and "#END Spiders"
        - Between this two lines entry's are automatically replaced
 
    [goto TOC](#toc)
@@ -122,6 +122,9 @@ Webalizer Config file|Webalizer config file
 
 	- For FTP download use "Server", "Username" and "Password"
 	- Without these fields a normal file copy will be made
+
+	- For Mikrotik you can specify a VPN-connection use "Filename"
+	- Mikrotik data will be send with rsh
 
 Fields|Description
 ---|---
