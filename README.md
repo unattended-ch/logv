@@ -35,6 +35,7 @@ Logfile analysis for Mikrotik routers
         <li><a href="#upload-download">Upload Download</a></li>
         <li><a href="#analyze-logfile">Analyze logfile</a></li>
         <li><a href="#blocklist">Blocklist</a></li>
+        <li><a href="#database">Database</a></li>
         <li><a href="#change">Changelog</a></li>
       </ul>
     </li>
