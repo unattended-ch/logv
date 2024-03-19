@@ -76,7 +76,8 @@ Logfile analysis for Mikrotik routers
        - Press "Add" to create a new .htaccess file
 
        - Download original .htaccess file from provider to ~/.logv/SERVERNAME.htaccess
-       - Add two lines for Blocklist "#BEGIN Blacklist" and "#END Blocklist" [ht]
+       - Add two lines for Blocklist "#BEGIN Blacklist" and "#END Blocklist
+ [.htaccess]
        - Add two lines for Spiders "#BEGIN Spiders" and "#END Spiders"
        - Between this two lines entry's are automatically replaced
 
@@ -202,7 +203,7 @@ Exit|Close window
 
 [block]: docs/block-window.png
 
-[ht]: .htaccess
+[.haccesst]: .htaccess
 
 [releases]: https://github.com/unattended-ch/logv/releases/
 
