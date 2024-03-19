@@ -62,7 +62,7 @@ Logfile analysis for Mikrotik routers
        - Create .htaccess files for webserver
        - Send .htaccess file to your server
 
-## FIRST STEPS
+## :runner: FIRST STEPS
 
        - MySql server must be installed
        - Create a new mysql user weblog
@@ -80,7 +80,7 @@ Logfile analysis for Mikrotik routers
        - Add two lines for Spiders "#BEGIN Spiders" and "#END Spiders"
        - Between this two lines entry's are automatically replaced
 
-### FOLDERS
+### :file_folder: FOLDERS
 
 OS|Folder|Description
 ----|----|----
@@ -88,7 +88,7 @@ Ubuntu|/usr/local/bin/|Executable
 Ubuntu|~/logv/|Logfiles, Pages and Archiv folder
 Ubuntu|~/.logv/|Work folder for internal files
 
-### FILES
+### :clipboard: FILES
 
 OS|File|Description
 ----|----|----
@@ -96,7 +96,7 @@ Ubuntu|/usr/local/bin/logv|Executable
 Ubuntu|~/.logv/logv.conf|Configuration file
 
 
-### ADD FILES
+### :pencil2: ADD FILES
 
 	- Press "Upload/Download"
 	- Press "Add"
@@ -131,7 +131,7 @@ Webalizer index|Webalizer (example: pages/SERVERNAME/index.html)
 Hours to add|If your server is not running in your timezone -1 or +1
 Blacklist error|HTML error to send in Blocklist (example: 405)
 
-### Upload Download
+### :globe_with_meridians: Upload Download
 
 ![Main Page][updown]
 
@@ -145,7 +145,7 @@ Download Log|Download all IIS, Nginx and Apache logfiles
 Update Blacklist|Update and upload all blocklist files
 Exit|Exit from window
 
-### ANALYZE LOGFILE
+### :mag_right: ANALYZE LOGFILE
 
 ![Main Page][main]
 
