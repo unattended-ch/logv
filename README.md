@@ -132,7 +132,7 @@ Download Log|Download all IIS, Nginx and Apache logfiles
 *Update Blacklist|Update and upload all blocklist files
 Exit|Exit from window
 
-
+###### Function maked with * are only in Licensed-Version available
 
    [goto TOC](#toc)
 
