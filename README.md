@@ -32,8 +32,8 @@ Logfile analysis for Mikrotik routers
         <li><a href="#folders">Folders</a></li>
         <li><a href="#files">Files</a></li>
         <li><a href="#add-files">Add files</a></li>
-        <li><a href="#upload-download">Upload Download</a></li>
-        <li><a href="#analyze-logfile">Analyze logfile</a></li>
+        <li><a href="#updown">Upload Download</a></li>
+        <li><a href="#analyze">Analyze logfile</a></li>
         <li><a href="#blocklist">Blocklist</a></li>
         <li><a href="#database">Database</a></li>
         <li><a href="#change">Changelog</a></li>
@@ -85,6 +85,7 @@ Logfile analysis for Mikrotik routers
 
    [goto TOC](#toc)
 
+<a name="folders"></a>
 ### :file_folder: FOLDERS
 
 OS|Folder|Description
@@ -93,6 +94,7 @@ Ubuntu|/usr/local/bin/|Executable
 Ubuntu|~/logv/|Logfiles, Pages and Archiv folder
 Ubuntu|~/.logv/|Work folder for internal files
 
+<a name="files"></a>
 ### :clipboard: FILES
 
 OS|File|Description
@@ -102,6 +104,7 @@ Ubuntu|~/.logv/logv.conf|Configuration file
 
    [goto TOC](#toc)
 
+<a name="updown"></a>
 ### :globe_with_meridians: Upload Download
 
 ![Main Page][updown]
@@ -118,6 +121,7 @@ Exit|Exit from window
 
    [goto TOC](#toc)
 
+<a name="addfiles"></a>
 ### :pencil2: ADD FILES
 
 	- Press "Upload/Download"
@@ -158,6 +162,7 @@ Blacklist error|HTML error to send in Blocklist (example: 405)
 
    [goto TOC](#toc)
 
+<a name="analyze"></a>
 ### :mag_right: ANALYZE LOGFILE
 
 ![Main Page][main]
@@ -170,6 +175,7 @@ Blacklist error|HTML error to send in Blocklist (example: 405)
 
    [goto TOC](#toc)
 
+<a name="blocklist"></a>
 ### :name_badge: BLOCKLIST
 
 ![Main Page][block]
@@ -191,6 +197,7 @@ Exit|Close window
 
    [goto TOC](#toc)
 
+<a name="database"></a>
 ### :cd: DATABASE
 
 #### Archiv
