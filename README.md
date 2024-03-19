@@ -22,11 +22,12 @@ Logfile analysis for Mikrotik routers
 <details open="open">
   <summary><h2 style="display: inline-block">TABLE OF CONTENTS</h2></summary>
   <ol>
-    <ul>
+    <li>
       <a href="#main">Main window</a>
       <a href="#description">Description</a>
       <a href="#Synopsis">Synopsis</a>
       <a href="#first">First steps</a>
+      <ul>
       <a href="#folders">Folders</a>
       <a href="#files">Files</a>
       <a href="#add-files">Add files</a>
@@ -35,7 +36,8 @@ Logfile analysis for Mikrotik routers
       <a href="#blocklist">Blocklist</a>
       <a href="#database">Database</a>
       <a href="#change">Changelog</a>
-    </ul>
+      </ul>
+    </li>
   </ol>
 </details>
 
