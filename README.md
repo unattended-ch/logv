@@ -106,7 +106,7 @@ Ubuntu|~/.logv/logv.conf|Configuration file
 ![Addfile][add]
 
        - Enter informations and Press "Save"
-       - For more information [(see Add Files)](addfiles)
+   For more information [(see Add Files)](addfiles)
 
        - Press "Download" to get the original .htaccess file from provider to ~/.logv/SERVERNAME.htaccess
        - Add two lines for Blocklist "#BEGIN Blacklist" and "#END Blocklist
