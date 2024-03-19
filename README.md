@@ -192,22 +192,38 @@ Exit|Close window
 
 ### DATABASE
 
+#### Archiv
 ![Database archiv][dbarchiv]
 
+   [goto TOC](#toc)
+
+#### Blocklist
 ![Database blocklist][dbblock]
 
+   [goto TOC](#toc)
+
+#### Spiders
 ![Database spiders][dbspiders]
 
+   [goto TOC](#toc)
+
+#### Errors
 ![Database errors][dberrors]
 
+   [goto TOC](#toc)
+
+#### Keywords
 ![Database keywords][dbkeywords]
 
+   [goto TOC](#toc)
+
+#### Files
 ![Database files][dbfiles]
 
+   [goto TOC](#toc)
+
+# ### Connection
 ![Database connection][dbconnection]
-
-
-
 
    [goto TOC](#toc)
 
@@ -216,7 +232,6 @@ Exit|Close window
 [Changelog](/CHANGELOG)
 
    [goto TOC](#toc)
-
 
 
 [main]: docs/main-window.png
