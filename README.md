@@ -22,12 +22,13 @@ Logfile analysis for Mikrotik routers
 <details open="open">
   <summary><h2 style="display: inline-block">TABLE OF CONTENTS</h2></summary>
   <ol>
+    <a href="#main">Main window</a>
     <li>
       <a href="#description">Description</a>
     </li>
       <a href="#Synopsis">Synopsis</a>
     <li>
-      <a href="#first-steps">First steps</a>
+      <a href="#first">First steps</a>
       <ul>
         <li><a href="#folders">Folders</a></li>
         <li><a href="#files">Files</a></li>
@@ -44,10 +45,12 @@ Logfile analysis for Mikrotik routers
 
 
 
+<a name="main"></a>
 ## :computer: MAINPAGE
 
 ![Main Page][main]
 
+<a name="description"></a>
 ## :scroll: DESCRIPTION
 
        Webserver logfile analysis software for IIS, Nginx and Apache
@@ -61,6 +64,7 @@ Logfile analysis for Mikrotik routers
        - Create .htaccess files for webserver
        - Send .htaccess file to your server
 
+<a name="first"></a>
 ## :runner: FIRST STEPS
 
        - MySql server must be installed
