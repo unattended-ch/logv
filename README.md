@@ -103,7 +103,7 @@ Ubuntu|~/.logv/logv.conf|Configuration file
        - Press "Add" to create a new IIS, Nginx, Apache or Mikrotik logfile
        - Press "Add" to create a new .htaccess file
 
-![Addfile][addfile]
+![Addfile][add]
 
        - Enter informations and Press "Save"
 
