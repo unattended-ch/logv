@@ -40,11 +40,11 @@ Logfile analysis for Mikrotik routers
 
 
 
-## MAINPAGE
+## :computer: MAINPAGE
 
 ![Main Page][main]
 
-## DESCRIPTION
+## :scroll: DESCRIPTION
 
        Webserver logfile analysis software for IIS, Nginx and Apache
        Logfile analysis for Mikrotik routers
