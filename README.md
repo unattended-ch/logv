@@ -23,22 +23,17 @@ Logfile analysis for Mikrotik routers
   <summary><h2 style="display: inline-block">TABLE OF CONTENTS</h2></summary>
   <ol>
     <a href="#main">Main window</a>
-    <li>
-      <a href="#description">Description</a>
-    </li>
-      <a href="#Synopsis">Synopsis</a>
-    <li>
-      <a href="#first">First steps</a>
-      <ul>
-        <li><a href="#folders">Folders</a></li>
-        <li><a href="#files">Files</a></li>
-        <li><a href="#add-files">Add files</a></li>
-        <li><a href="#updown">Upload Download</a></li>
-        <li><a href="#analyze">Analyze logfile</a></li>
-        <li><a href="#blocklist">Blocklist</a></li>
-        <li><a href="#database">Database</a></li>
-        <li><a href="#change">Changelog</a></li>
-      </ul>
+    <a href="#description">Description</a>
+    <a href="#Synopsis">Synopsis</a>
+    <a href="#first">First steps</a>
+    <li><a href="#folders">Folders</a></li>
+    <li><a href="#files">Files</a></li>
+    <li><a href="#add-files">Add files</a></li>
+    <li><a href="#updown">Upload Download</a></li>
+    <li><a href="#analyze">Analyze logfile</a></li>
+    <li><a href="#blocklist">Blocklist</a></li>
+    <li><a href="#database">Database</a></li>
+    <li><a href="#change">Changelog</a></li>
     </li>
   </ol>
 </details>
