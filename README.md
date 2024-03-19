@@ -106,6 +106,7 @@ Ubuntu|~/.logv/logv.conf|Configuration file
 ![Addfile][add]
 
        - Enter informations and Press "Save"
+       - For more information [(see Add Files)](addfiles)
 
        - Press "Download" to get the original .htaccess file from provider to ~/.logv/SERVERNAME.htaccess
        - Add two lines for Blocklist "#BEGIN Blacklist" and "#END Blocklist
@@ -186,7 +187,7 @@ Blacklist error|HTML error to send in Blocklist (example: 405)
 ![Blocklist][block]
 
 	- Verify data and Press "Save"
-	- To wxit from window Press "Exit"
+	- Leave the window Press "Exit"
 
    [goto TOC](#toc)
 
