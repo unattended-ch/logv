@@ -222,7 +222,7 @@ Exit|Close window
 
    [goto TOC](#toc)
 
-# ### Connection
+#### Connection
 ![Database connection][dbconnection]
 
    [goto TOC](#toc)
