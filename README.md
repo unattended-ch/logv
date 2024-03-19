@@ -169,7 +169,7 @@ Blacklist error|HTML error to send in Blocklist (example: 405)
 
    [goto TOC](#toc)
 
-### :rotating_light: BLOCKLIST
+### :name_badge: BLOCKLIST
 
 ![Main Page][block]
 
@@ -190,7 +190,7 @@ Exit|Close window
 
    [goto TOC](#toc)
 
-### DATABASE
+### :cd: DATABASE
 
 #### Archiv
 ![Database archiv][dbarchiv]
