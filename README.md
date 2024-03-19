@@ -24,10 +24,12 @@ Logfile analysis for Mikrotik routers
   <ol>
     <ul>
       <a href="#main">Main window</a><br>
-      <a href="#description">Description</a><br>
-      <a href="#first">First steps</a><br>
-      <a href="#folders">Folders</a><br>
-      <a href="#files">Files</a><br>
+      <ul>
+          <a href="#description">Description</a><br>
+          <a href="#first">First steps</a><br>
+          <a href="#folders">Folders</a><br>
+          <a href="#files">Files</a><br>
+      </ul>
       <a href="#add-files">Add files</a><br>
       <a href="#updown">Upload Download</a><br>
       <a href="#analyze">Analyze logfile</a><br>
