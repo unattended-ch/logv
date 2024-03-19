@@ -54,9 +54,6 @@ Logfile analysis for Mikrotik routers
        Written with Lazarus and using mysql 8.0 database
        Compiled for Debian, Ubuntu
 
-
-## SYNOPSIS
-
        - Download logfiles from your Webserver
        - Analyze logfiles IP, Range, Country...
        - Create blocklist entry for adress ranges
