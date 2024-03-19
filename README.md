@@ -101,6 +101,21 @@ Ubuntu|~/.logv/logv.conf|Configuration file
 
    [goto TOC](#toc)
 
+### :globe_with_meridians: Upload Download
+
+![Main Page][updown]
+
+Function|Description
+---|---
+Add|Add a new file to database
+Delete|Delete selected file from database
+Download|Download selected file
+Upload|Upload selected file
+Download Log|Download all IIS, Nginx and Apache logfiles
+Update Blacklist|Update and upload all blocklist files
+Exit|Exit from window
+
+   [goto TOC](#toc)
 
 ### :pencil2: ADD FILES
 
@@ -142,22 +157,6 @@ Blacklist error|HTML error to send in Blocklist (example: 405)
 
    [goto TOC](#toc)
 
-### :globe_with_meridians: Upload Download
-
-![Main Page][updown]
-
-Function|Description
----|---
-Add|Add a new file to database
-Delete|Delete selected file from database
-Download|Download selected file
-Upload|Upload selected file
-Download Log|Download all IIS, Nginx and Apache logfiles
-Update Blacklist|Update and upload all blocklist files
-Exit|Exit from window
-
-   [goto TOC](#toc)
-
 ### :mag_right: ANALYZE LOGFILE
 
 ![Main Page][main]
@@ -166,7 +165,7 @@ Exit|Exit from window
 	- File will be loaded into import table on center window
 	- Country and Range loading automatically started
 	- Select a log line and Right-Click "Add to blocklist"
-	
+ 	
 
    [goto TOC](#toc)
 
