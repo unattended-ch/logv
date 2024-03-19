@@ -25,7 +25,6 @@ Logfile analysis for Mikrotik routers
     <ul>
       <a href="#main">Main window</a><br>
       <a href="#description">Description</a><br>
-      <a href="#Synopsis">Synopsis</a><br>
       <a href="#first">First steps</a><br>
       <a href="#folders">Folders</a><br>
       <a href="#files">Files</a><br>
