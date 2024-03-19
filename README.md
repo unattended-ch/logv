@@ -190,6 +190,27 @@ Exit|Close window
 
    [goto TOC](#toc)
 
+### DATABASE
+
+![Database archiv][dbarchiv]
+
+![Database blocklist][dbblock]
+
+![Database spiders][dbspiders]
+
+![Database errors][dberrors]
+
+![Database keywords][dbkeywords]
+
+![Database files][dbfiles]
+
+![Database connection][dbconnection]
+
+
+
+
+   [goto TOC](#toc)
+
 <a name="change"></a>
 ## :recycle: CHANGELOG
 [Changelog](/CHANGELOG)
@@ -205,6 +226,20 @@ Exit|Close window
 [updown]: docs/updown-window.png
 
 [block]: docs/block-window.png
+
+[dbarchiv]: docs/db-archiv.png
+
+[dbblock]: docs/db-block.png
+
+[dbspiders]: docs/db-spiders.png
+
+[dberrors]: docs/db-errors.png
+
+[dbkeywords]: docs/db-keywords.png
+
+[dbfiles]: docs/db-files.png
+
+[dbconnection]: docs/db-connection.png
 
 [.haccesst]: .htaccess
 
