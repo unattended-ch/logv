@@ -127,10 +127,12 @@ Function|Description
 Add|Add a new file to database
 Delete|Delete selected file from database
 Download|Download selected file
-Upload|Upload selected file
+*Upload|Upload selected file
 Download Log|Download all IIS, Nginx and Apache logfiles
-Update Blacklist|Update and upload all blocklist files
+*Update Blacklist|Update and upload all blocklist files
 Exit|Exit from window
+
+
 
    [goto TOC](#toc)
 
