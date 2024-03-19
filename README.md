@@ -33,6 +33,7 @@ Logfile analysis for Mikrotik routers
         <li><a href="#upload-download">Upload Download</a></li>
         <li><a href="#analyze-logfile">Analyze logfile</a></li>
         <li><a href="#blocklist">Blocklist</a></li>
+        <li><a href="#change">Changelog</a></li>
       </ul>
     </li>
   </ol>
@@ -172,6 +173,10 @@ Test Owner|Test all owners in the list
 Duplicates|Check for duplicate ranges in the list
 Whois|Run WHOIS for selected IP Adress
 Exit|Close window
+
+<a name="change"></a>
+## :recycle: CHANGELOG
+[Changelog](/CHANGELOG)
 
 
 
