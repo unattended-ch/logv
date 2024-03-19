@@ -76,7 +76,11 @@ Logfile analysis for Mikrotik routers
        - Press "Create database"
        - On success you will be forwarded to main page
 
+
        - Press "Upload/Download" button
+
+![UploadDownload][updown]
+
        - Press "Add" to create a new IIS, Nginx, Apache or Mikrotik logfile
        - Press "Add" to create a new .htaccess file
 
