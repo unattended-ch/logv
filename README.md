@@ -155,7 +155,7 @@ Exit|Exit from window
 	- Select a log line and Right-Click "Add to blocklist"
 	
 
-### BLOCKLIST
+### :rotating_light: BLOCKLIST
 
 ![Main Page][block]
 
