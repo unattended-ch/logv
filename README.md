@@ -17,6 +17,8 @@ Logfile analysis for Mikrotik routers
 </div>
 
 <!-- TABLE OF CONTENTS -->
+<a name="toc"></a>
+<!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">TABLE OF CONTENTS</h2></summary>
   <ol>
@@ -52,7 +54,6 @@ Logfile analysis for Mikrotik routers
        Written with Lazarus and using mysql 8.0 database
        Compiled for Debian, Ubuntu
 
-[Discussion][discuss]
 
 ## SYNOPSIS
 
@@ -77,10 +78,12 @@ Logfile analysis for Mikrotik routers
        - Press "Add" to create a new IIS, Nginx, Apache or Mikrotik logfile
        - Press "Add" to create a new .htaccess file
 
-       - Download original .htaccess file from provider to ~/.logv/SERVERNAME.htaccess
+       - Download original .htaccess file from provider to ~/.logv/[SERVERNAME.htaccess](ht)
        - Add two lines for Blocklist "#BEGIN Blacklist" and "#END Blocklist"
        - Add two lines for Spiders "#BEGIN Spiders" and "#END Spiders"
        - Between this two lines entry's are automatically replaced
+
+   [goto TOC](#toc)
 
 ### :file_folder: FOLDERS
 
@@ -96,6 +99,8 @@ OS|File|Description
 ----|----|----
 Ubuntu|/usr/local/bin/logv|Executable
 Ubuntu|~/.logv/logv.conf|Configuration file
+
+   [goto TOC](#toc)
 
 
 ### :pencil2: ADD FILES
@@ -133,6 +138,8 @@ Webalizer index|Webalizer (example: pages/SERVERNAME/index.html)
 Hours to add|If your server is not running in your timezone -1 or +1
 Blacklist error|HTML error to send in Blocklist (example: 405)
 
+   [goto TOC](#toc)
+
 ### :globe_with_meridians: Upload Download
 
 ![Main Page][updown]
@@ -147,6 +154,8 @@ Download Log|Download all IIS, Nginx and Apache logfiles
 Update Blacklist|Update and upload all blocklist files
 Exit|Exit from window
 
+   [goto TOC](#toc)
+
 ### :mag_right: ANALYZE LOGFILE
 
 ![Main Page][main]
@@ -156,6 +165,8 @@ Exit|Exit from window
 	- Country and Range loading automatically started
 	- Select a log line and Right-Click "Add to blocklist"
 	
+
+   [goto TOC](#toc)
 
 ### :rotating_light: BLOCKLIST
 
@@ -176,9 +187,13 @@ Duplicates|Check for duplicate ranges in the list
 Whois|Run WHOIS for selected IP Adress
 Exit|Close window
 
+   [goto TOC](#toc)
+
 <a name="change"></a>
 ## :recycle: CHANGELOG
 [Changelog](/CHANGELOG)
+
+   [goto TOC](#toc)
 
 
 
@@ -189,6 +204,8 @@ Exit|Close window
 [updown]: docs/updown-window.png
 
 [block]: docs/block-window.png
+
+[ht]: .htaccess
 
 [releases]: https://github.com/unattended-ch/logv/releases/
 
