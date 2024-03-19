@@ -61,6 +61,8 @@ Logfile analysis for Mikrotik routers
        - Create .htaccess files for webserver
        - Send .htaccess file to your server
 
+##### Uploading files is only in Licensed version available
+
 <a name="folders"></a>
 ### :file_folder: FOLDERS
 
