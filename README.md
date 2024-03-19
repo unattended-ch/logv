@@ -72,9 +72,11 @@ Logfile analysis for Mikrotik routers
        - If the server is connected, you get a messsage "missing database"
        - Press "Create database"
        - On success you will be forwarded to main page
+
        - Press "Upload/Download" button
        - Press "Add" to create a new IIS, Nginx, Apache or Mikrotik logfile
        - Press "Add" to create a new .htaccess file
+
        - Download original .htaccess file from provider to ~/.logv/SERVERNAME.htaccess
        - Add two lines for Blocklist "#BEGIN Blacklist" and "#END Blocklist"
        - Add two lines for Spiders "#BEGIN Spiders" and "#END Spiders"

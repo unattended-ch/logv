@@ -1,0 +1,38 @@
+AllowOverride None
+Options -ExecCGI -Indexes -All
+
+# BEGIN Blacklist
+# END Blacklist
+
+# BEGIN Spiders
+# END Spiders
+
+# BEGIN Port
+# END Port
+
+# BEGIN Hotlink
+# END Hotlink
+
+# BEGIN Method
+# END Method
+
+# BEGIN Filename
+# END Filename
+
+# BEGIN Include
+# END Include
+
+<Files wp-config.php>
+order allow,deny
+deny from all
+</Files>
+
+<Files xmlrpc.php>
+order allow,deny
+deny from all
+</Files>
+
+<Files .htaccess>
+ order allow,deny
+ deny from all
+</Files>
