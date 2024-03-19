@@ -26,9 +26,9 @@ Logfile analysis for Mikrotik routers
       <a href="#main">Main window</a><br>
       <ul>
           <a href="#description">Description</a><br>
-          <a href="#first">First steps</a><br>
           <a href="#folders">Folders</a><br>
           <a href="#files">Files</a><br>
+          <a href="#first">First steps</a><br>
       </ul>
       <a href="#add-files">Add files</a><br>
       <a href="#updown">Upload Download</a><br>
@@ -61,6 +61,25 @@ Logfile analysis for Mikrotik routers
        - Create .htaccess files for webserver
        - Send .htaccess file to your server
 
+<a name="folders"></a>
+### :file_folder: FOLDERS
+
+OS|Folder|Description
+----|----|----
+Ubuntu|/usr/local/bin/|Executable
+Ubuntu|~/logv/|Logfiles, Pages and Archiv folder
+Ubuntu|~/.logv/|Work folder for internal files
+
+<a name="files"></a>
+### :clipboard: FILES
+
+OS|File|Description
+----|----|----
+Ubuntu|/usr/local/bin/logv|Executable
+Ubuntu|~/.logv/logv.conf|Configuration file
+
+   [goto TOC](#toc)
+
 <a name="first"></a>
 ## :runner: FIRST STEPS
 
@@ -84,6 +103,8 @@ Logfile analysis for Mikrotik routers
        - Press "Add" to create a new IIS, Nginx, Apache or Mikrotik logfile
        - Press "Add" to create a new .htaccess file
 
+![Addfile][addfile]
+
        - Enter informations and Press "Save"
 
        - Press "Download" to get the original .htaccess file from provider to ~/.logv/SERVERNAME.htaccess
@@ -92,25 +113,6 @@ Logfile analysis for Mikrotik routers
 
        - Add at least two lines for Spiders "#BEGIN Spiders" and "#END Spiders"
        - Between this two lines entry's are automatically replaced
-
-   [goto TOC](#toc)
-
-<a name="folders"></a>
-### :file_folder: FOLDERS
-
-OS|Folder|Description
-----|----|----
-Ubuntu|/usr/local/bin/|Executable
-Ubuntu|~/logv/|Logfiles, Pages and Archiv folder
-Ubuntu|~/.logv/|Work folder for internal files
-
-<a name="files"></a>
-### :clipboard: FILES
-
-OS|File|Description
-----|----|----
-Ubuntu|/usr/local/bin/logv|Executable
-Ubuntu|~/.logv/logv.conf|Configuration file
 
    [goto TOC](#toc)
 
