@@ -2,7 +2,7 @@ AllowOverride None
 Options -ExecCGI -Indexes -All
 
 # BEGIN Blacklist
-# Blacklist etrys
+# Blacklist addresses
 # END Blacklist
 
 # BEGIN Spiders

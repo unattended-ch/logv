@@ -1,9 +1,5 @@
-
 <div align="center">
-
 # logv
-# Under construction
-## Binarys following soon
 
 [![Release version](https://img.shields.io/github/v/release/unattended-ch/logv?color=blue&label=&style=for-the-badge)](https://github.com/unattended-ch/logv/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/unattended-ch/logv/total?style=for-the-badge&color=blue)](https://github.com/unattended-ch/logv/releases/latest)
@@ -58,8 +54,8 @@ Logfile analysis for Mikrotik routers
        - Download logfiles from your Webserver
        - Analyze logfiles IP, Range, Country...
        - Create blocklist entry for adress ranges
-       - Create .htaccess files for webserver
-       - Send .htaccess file to your server
+       - Create .htaccess files for webserver (only Licensed)
+       - Send .htaccess file to your server (only Licensed)
 
 ##### Uploading files is only in Licensed version available
 
@@ -85,9 +81,9 @@ Ubuntu|~/.logv/logv.conf|Configuration file
 <a name="first"></a>
 ## :runner: FIRST STEPS
 
-       - MySql server must be installed
-       - Create a new mysql user weblog
        - Start logv
+       - You will be assisted if mysql is not installed
+       - You will be assisted to create a new mysql user
        - A database connection dialog is displayed
 
 ![Connection][dbconnection]
@@ -96,7 +92,6 @@ Ubuntu|~/.logv/logv.conf|Configuration file
        - If the server is connected, you get a messsage "missing database"
        - Press "Create database"
        - On success you will be forwarded to main page
-
 
        - Press "Upload/Download" button
 
