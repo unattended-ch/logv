@@ -32,6 +32,7 @@ Logfile analysis for Mikrotik routers
       <a href="#analyze">Analyze logfile</a><br>
       <a href="#blocklist">Blocklist</a><br>
       <a href="#database">Database</a><br>
+      <a href="#license">Get a license</a>
       <a href="#change">Changelog</a>
     </ul>
   </ol>
@@ -255,7 +256,7 @@ Exit|Close window
    [goto TOC](#toc)
 
 <a name="license"></a>
-## :warning: Lizenz bestellen
+## :warning: License
 
 [Get license, pay with payment slip](https://unattended.ch/?page_id=1983)<br>
 
