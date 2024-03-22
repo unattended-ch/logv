@@ -32,7 +32,7 @@ Logfile analysis for Mikrotik routers
       <a href="#analyze">Analyze logfile</a><br>
       <a href="#blocklist">Blocklist</a><br>
       <a href="#database">Database</a><br>
-      <a href="#license">Get a license</a>
+      <a href="#license">Get a license</a><br>
       <a href="#change">Changelog</a>
     </ul>
   </ol>
