@@ -50,8 +50,8 @@ Logfile analysis for Mikrotik routers
 
        Webserver logfile analysis software for IIS, Nginx and Apache
        Logfile analysis for Mikrotik routers
-       Written with Lazarus and using mysql 8.0 database
-       Compiled for Debian, Ubuntu
+       Written with Lazarus using mysql 8.0 database
+       Compiled for Ubuntu
 
        - Download logfiles from your Webserver
        - Analyze logfiles IP, Range, Country...
@@ -132,7 +132,7 @@ Download Log|Download all IIS, Nginx and Apache logfiles
 *Update Blacklist|Update and upload all blocklist files
 Exit|Exit from window
 
-###### Function maked with * are only in Licensed-Version available
+###### Function marked with * are only in Licensed-Version available
 
    [goto TOC](#toc)
 
@@ -220,32 +220,34 @@ Exit|Close window
 <a name="database"></a>
 ### :cd: DATABASE
 
-#### Archiv
+###### Windows marked with * are only in Licensed-Version available
+
+#### * Archiv
 ![Database archiv][dbarchiv]
 
    [goto TOC](#toc)
 
-#### Blocklist
+#### * Blocklist
 ![Database blocklist][dbblock]
 
    [goto TOC](#toc)
 
-#### Spiders
+#### * Spiders
 ![Database spiders][dbspiders]
 
    [goto TOC](#toc)
 
-#### Errors
+#### * Errors
 ![Database errors][dberrors]
 
    [goto TOC](#toc)
 
-#### Keywords
+#### * Keywords
 ![Database keywords][dbkeywords]
 
    [goto TOC](#toc)
 
-#### Files
+#### * Files
 ![Database files][dbfiles]
 
    [goto TOC](#toc)
