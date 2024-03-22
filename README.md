@@ -161,7 +161,7 @@ Webalizer Config file|Webalizer config file
 
 	- For Mikrotik you can specify a VPN-connection use "Filename" (myvpn)
 	- For Mikrotik specify "Username" with connection data (username@10.1.1.1)
-	- Mikrotik data will be send with rsh and "Username"
+	- Mikrotik data will be send with "rsh username@10.1.1.1 scriptname"
 
 Fields|Description
 ---|---
@@ -175,7 +175,7 @@ Logpre|Logfile short code for local files (example: "aa" or "ab")
 Conf filename|Webalizer configuration file (example: files/SERVERNAME.conf)
 Webalizer index|Webalizer (example: pages/SERVERNAME/index.html)
 Hours to add|If your server is not running in your timezone -1 or +1
-Blacklist error|HTML error to send in Blocklist (example: 405)
+Blacklist error|HTML error to send in Blocklist (example: 410)
 
    [goto TOC](#toc)
 
@@ -186,9 +186,11 @@ Blacklist error|HTML error to send in Blocklist (example: 405)
 
 	- Click on a file on left window
 	- File will be loaded into import table on center window
-	- Country and Range loading automatically started
-	- Select a log line and Right-Click "Add to blocklist"
+	- Country and Range loading will be started automatically
+	- To block IP address select log line and Right-Click "Add to blocklist"
+	- To block Webspiders select a log line and Right-Click "Add to spiders"
 ![Blocklist][block]
+![Webspider][spider]
 
 	- Verify data and Press "Save"
 	- Leave the window Press "Exit"
@@ -276,6 +278,8 @@ Exit|Close window
 [updown]: docs/updown-window.png
 
 [block]: docs/block-window.png
+
+[spider]: docs/spiders-window.png
 
 [dbarchiv]: docs/db-archiv.png
 
