@@ -110,9 +110,9 @@ Ubuntu|~/.logv/logv.conf|Configuration file
 
        - Press "Download" to get the original .htaccess file from provider to ~/.logv/SERVERNAME.htaccess
        - Add two lines for Blocklist "#BEGIN Blacklist" and "#END Blocklist
+       - Add two lines for Webspiders "#BEGIN Spiders" and "#END Spiders"
 [.htaccess](/.htaccess)
 
-       - Add at least two lines for Spiders "#BEGIN Spiders" and "#END Spiders"
        - Between this two lines entry's are automatically replaced
 
    [goto TOC](#toc)
