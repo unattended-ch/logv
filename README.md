@@ -113,7 +113,7 @@ Ubuntu|~/.logv/logv.conf|Configuration file
        - Add two lines for Webspiders "#BEGIN Spiders" and "#END Spiders"
 [.htaccess](/.htaccess)
 
-       - Between this two lines entry's are automatically replaced
+       - Between #BEGIN and #END entry's are automatically replaced
 
    [goto TOC](#toc)
 
