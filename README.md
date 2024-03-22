@@ -85,6 +85,7 @@ Ubuntu|~/.logv/logv.conf|Configuration file
        - Start logv
        - You will be assisted if mysql is not installed
        - You will be assisted to create a new mysql user
+       - You will be assisted to create a new database
        - A database connection dialog is displayed
 
 ![Connection][dbconnection]
