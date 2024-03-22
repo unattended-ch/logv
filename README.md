@@ -254,6 +254,11 @@ Exit|Close window
 
    [goto TOC](#toc)
 
+<a name="license"></a>
+## :warning: Lizenz bestellen
+
+[Get license, pay with payment slip](https://unattended.ch/?page_id=1983)<br>
+
 <a name="change"></a>
 ## :recycle: CHANGELOG
 [Changelog](/CHANGELOG)
