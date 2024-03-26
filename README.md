@@ -84,17 +84,17 @@ Ubuntu|~/.logv/logv.conf|Configuration file
 ## :runner: FIRST STEPS
 
        - Start logv
-       - You will be assisted if mysql is not installed
-       - You will be assisted to create a new mysql user
-       - You will be assisted to create a new database
-       - A database connection dialog is displayed
+       - A script will assist you if mysql-server is not installed
+       - Then the database connection dialog is displayed
 
 ![Connection][dbconnection]
 
        - Enter your data a press "Connect"
        - If the server is connected, you get a messsage "missing database"
        - Press "Create database"
+       - The basic tables for logv are created
        - On success you will be forwarded to main page
+       - The basic data will be imported from dump
 
        - Press "Upload/Download" button
 
@@ -108,12 +108,12 @@ Ubuntu|~/.logv/logv.conf|Configuration file
        - Enter informations and Press "Save"
    For more information [(see Add Files)](#addfiles)
 
-       - Press "Download" to get the original .htaccess file from provider to ~/.logv/SERVERNAME.htaccess
+       - Press "Download" to get the original .htaccess file from provider to ~/.logv/files/SERVERNAME.htaccess
        - Add two lines for Blocklist "#BEGIN Blacklist" and "#END Blocklist
        - Add two lines for Webspiders "#BEGIN Spiders" and "#END Spiders"
 [.htaccess](/.htaccess)
 
-       - Between #BEGIN and #END entry's are automatically replaced
+       - Between #BEGIN and #END data will be automatically replaced
 
    [goto TOC](#toc)
 
@@ -127,8 +127,8 @@ Function|Description
 Add|Add a new file to database
 Delete|Delete selected file from database
 Download|Download selected file
-*Upload|Upload selected file
 Download Log|Download all IIS, Nginx and Apache logfiles
+*Upload|Upload selected file
 *Update Blacklist|Update and upload all blocklist files
 Exit|Exit from window
 

@@ -14,4 +14,11 @@
 		Import date update in archiv fixed
 		Blocklist country icon added
 		Blocklist search overlapping ranges fixed
+0.0.1.6		Grid colors fixed
+		mySQL install script ask for logv password
+		Check for update on github.com added
+		Install update from github.com added
+		File transfer window design modified
+		Configuration changed from INI to JSON format
+
 
